@@ -167,3 +167,45 @@ print("Name:  Jessa Salary: 10000")
 ![image](https://github.com/user-attachments/assets/b07360b7-d1f1-4af2-afcf-75316ad35f04)
 
 ### Result: Thus, the given program is implemented and executed successfully .
+
+# Ex No: 6.5 SEB-Adding Two Objects
+
+### Aim:
+To write a Python program to demonstrate simple operator overloading for adding two objects — integers and strings.
+
+### Algorithm:
+
+**STEP 1:** Start.  
+**STEP 2:** Define a class `add` with a constructor accepting two integers and two strings.  
+**STEP 3:** Store them as instance variables.  
+**STEP 4:** Define a method `disp()` to:
+- Print the sum of the two integers.
+- Print the concatenation of the two strings.  
+**STEP 5:** Accept input values from the user.  
+**STEP 6:** Create an object of the class and call `disp()`.  
+**STEP 7:** Stop.
+
+### Program:
+```python
+class add:
+    def __init__(self, a, b, c, d):
+        self.a = a
+        self.b = b
+        self.c = c
+        self.d = d
+
+    def disp(self):
+        print("adding integers :", self.a + self.b)
+        print("adding strings :", self.c + self.d)
+
+a = int(input())
+b = int(input())
+c = input()
+d = input()
+e = add(a, b, c, d)
+e.disp()
+```
+### Output:
+![image](https://github.com/user-attachments/assets/21c6309c-35ec-4963-b460-dde0b69edfc3)
+### Result:
+Thus the program was executed Successfully.
